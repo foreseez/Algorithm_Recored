@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="926ca0c4-6ed5-42d0-8f4f-d5d2ad69a058" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="926ca0c4-6ed5-42d0-8f4f-d5d2ad69a058" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_LeetCode.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +19,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SubSetwithDupp.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="IuZlTALG" />
@@ -25,27 +36,27 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1cfGjCKUAzFOAUnrcBgPAzCrWwy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/com/leetcode" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Python.SubSetwithDupp">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTree.BinaryTree" />
       <module name="Java_LeetCode" />
@@ -69,9 +80,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubSetwithDupp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Java_LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SubSetwithDupp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Python.SubSetwithDupp" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +118,85 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590912366691</updated>
+      <workItem from="1593354182686" duration="3628000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="407" y="104" key="CommitChangelistDialog2" timestamp="1593359828403">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="407" y="104" key="CommitChangelistDialog2/0.23.1680.963@0.23.1680.963" timestamp="1593359828403" />
+    <state width="1606" height="256" key="GridCell.Tab.0.bottom" timestamp="1593360463406">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="944" height="316" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1593357403992" />
+    <state width="1606" height="256" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593360463406" />
+    <state width="1606" height="256" key="GridCell.Tab.0.center" timestamp="1593360463405">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="944" height="316" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1593357403991" />
+    <state width="1606" height="256" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593360463405" />
+    <state width="1606" height="256" key="GridCell.Tab.0.left" timestamp="1593360463404">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="944" height="316" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1593357403991" />
+    <state width="1606" height="256" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593360463404" />
+    <state width="1606" height="256" key="GridCell.Tab.0.right" timestamp="1593360463405">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="944" height="316" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1593357403992" />
+    <state width="1606" height="256" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593360463405" />
+    <state width="1606" height="316" key="GridCell.Tab.1.bottom" timestamp="1593359833098">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="316" key="GridCell.Tab.1.bottom/0.23.1680.961@0.23.1680.961" timestamp="1593357405816" />
+    <state width="1606" height="316" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593359833098" />
+    <state width="1606" height="316" key="GridCell.Tab.1.center" timestamp="1593359833098">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="316" key="GridCell.Tab.1.center/0.23.1680.961@0.23.1680.961" timestamp="1593357405815" />
+    <state width="1606" height="316" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593359833098" />
+    <state width="1606" height="316" key="GridCell.Tab.1.left" timestamp="1593359833098">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="316" key="GridCell.Tab.1.left/0.23.1680.961@0.23.1680.961" timestamp="1593357405815" />
+    <state width="1606" height="316" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593359833098" />
+    <state width="1606" height="316" key="GridCell.Tab.1.right" timestamp="1593359833098">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="316" key="GridCell.Tab.1.right/0.23.1680.961@0.23.1680.961" timestamp="1593357405815" />
+    <state width="1606" height="316" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593359833098" />
+    <state x="435" y="227" key="SettingsEditor" timestamp="1593357002287">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="435" y="227" key="SettingsEditor/0.23.1680.961@0.23.1680.961" timestamp="1593357002287" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SubSetwithDupp.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SubSetwithDupp.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SubSetwithDupp.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCode_python$SubSetwithDupp.coverage" NAME="SubSetwithDupp Coverage Results" MODIFIED="1593360463397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
