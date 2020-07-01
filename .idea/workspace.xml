@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926ca0c4-6ed5-42d0-8f4f-d5d2ad69a058" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_LeetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubSetwithDupp.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubSetwithDupp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SubSetwithDupp.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SecondNum.py" root0="SKIP_INSPECTION" />
   </component>
+  <component name="JupyterTrust" id="f4c68cc1-cae8-4ad3-8220-89ad8b62e29f" />
   <component name="MacroExpansionManager">
     <option name="directoryName" value="IuZlTALG" />
   </component>
@@ -56,7 +56,7 @@
       <recent name="$PROJECT_DIR$/src/main/com/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SubSetwithDupp">
+  <component name="RunManager" selected="Python.SecondNum">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTree.BinaryTree" />
       <module name="Java_LeetCode" />
@@ -79,6 +79,28 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="SecondNum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Java_LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecondNum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="SubSetwithDupp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Java_LeetCode" />
@@ -104,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SecondNum" />
         <item itemvalue="Python.SubSetwithDupp" />
       </list>
     </recent_temporary>
@@ -118,38 +141,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590912366691</updated>
-      <workItem from="1593354182686" duration="3628000" />
+      <workItem from="1593354182686" duration="9677000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="407" y="104" key="CommitChangelistDialog2" timestamp="1593359828403">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state x="407" y="104" key="CommitChangelistDialog2" timestamp="1593569405526">
+      <screen x="0" y="23" width="1680" height="959" />
     </state>
+    <state x="407" y="104" key="CommitChangelistDialog2/0.23.1680.959@0.23.1680.959" timestamp="1593569405526" />
     <state x="407" y="104" key="CommitChangelistDialog2/0.23.1680.963@0.23.1680.963" timestamp="1593359828403" />
-    <state width="1606" height="256" key="GridCell.Tab.0.bottom" timestamp="1593360463406">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1606" height="256" key="GridCell.Tab.0.bottom" timestamp="1593594996998">
+      <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state width="944" height="316" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1593357403992" />
+    <state width="1606" height="256" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1593594996998" />
+    <state width="1606" height="256" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1593360583550" />
     <state width="1606" height="256" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593360463406" />
-    <state width="1606" height="256" key="GridCell.Tab.0.center" timestamp="1593360463405">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1606" height="256" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1593576141820" />
+    <state width="1606" height="256" key="GridCell.Tab.0.center" timestamp="1593594996997">
+      <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state width="944" height="316" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1593357403991" />
+    <state width="1606" height="256" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1593594996997" />
+    <state width="1606" height="256" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1593360583549" />
     <state width="1606" height="256" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593360463405" />
-    <state width="1606" height="256" key="GridCell.Tab.0.left" timestamp="1593360463404">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1606" height="256" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1593576141819" />
+    <state width="1606" height="256" key="GridCell.Tab.0.left" timestamp="1593594996997">
+      <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state width="944" height="316" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1593357403991" />
+    <state width="1606" height="256" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1593594996997" />
+    <state width="1606" height="256" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1593360583549" />
     <state width="1606" height="256" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593360463404" />
-    <state width="1606" height="256" key="GridCell.Tab.0.right" timestamp="1593360463405">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1606" height="256" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1593576141818" />
+    <state width="1606" height="256" key="GridCell.Tab.0.right" timestamp="1593594996998">
+      <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state width="944" height="316" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1593357403992" />
+    <state width="1606" height="256" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1593594996998" />
+    <state width="1606" height="256" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1593360583550" />
     <state width="1606" height="256" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593360463405" />
+    <state width="1606" height="256" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1593576141819" />
     <state width="1606" height="316" key="GridCell.Tab.1.bottom" timestamp="1593359833098">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
@@ -174,6 +209,14 @@
       <screen x="0" y="23" width="1680" height="961" />
     </state>
     <state x="435" y="227" key="SettingsEditor/0.23.1680.961@0.23.1680.961" timestamp="1593357002287" />
+    <state x="607" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593512185635">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="607" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.959@0.23.1680.959" timestamp="1593512185635" />
+    <state x="405" y="90" width="837" height="825" key="find.popup" timestamp="1593512332538">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="405" y="90" width="837" height="825" key="find.popup/0.23.1680.959@0.23.1680.959" timestamp="1593512332538" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -198,5 +241,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode_python$SubSetwithDupp.coverage" NAME="SubSetwithDupp Coverage Results" MODIFIED="1593360463397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode_python$SecondNum.coverage" NAME="SecondNum Coverage Results" MODIFIED="1593594996984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

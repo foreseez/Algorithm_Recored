@@ -42,7 +42,7 @@ class Solution2:
             res += pre
         return res
 
-func2 = Solution2()
+func2 = Solution2()    #alt +shift+上下  移动
 nums = [1,2,2,3]
 result2 = func2.subsetsWithDup(nums)
 print(result2)
