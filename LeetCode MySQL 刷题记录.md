@@ -409,14 +409,76 @@ department 表格：
 ```
 
 ```
-
-SELECT
-    dept_name, COUNT(student_id) AS student_number
+SELECT  dept_name,count(student_id)as student_number  #这里改成count(gender)  也可以 
 FROM
-    department
-        LEFT OUTER JOIN
-    student ON department.dept_id = student.dept_id
+	department
+	left OUTER join 
+	student
+	on department.dept_id = student.dept_id
 GROUP BY department.dept_name
-ORDER BY student_number DESC , department.dept_name
+
+ORDER BY student_number DESC,department.dept_name 
+```
+
+- 注意上面的Count 后面要跟一个分组聚合的操作group by  至于Count里面 统计那一列都可以 。group by 会自动按照分组的字段分组求和。
+
+## 谁有最多的好友
+
+
+
+```
+在 Facebook 或者 Twitter 这样的社交应用中，人们经常会发好友申请也会收到其他人的好友申请。
+
+ 
+
+表 request_accepted 存储了所有好友申请通过的数据记录，其中， requester_id 和 accepter_id 都是用户的编号。
+
+ 
+
+| requester_id | accepter_id | accept_date|
+|--------------|-------------|------------|
+| 1            | 2           | 2016_06-03 |
+| 1            | 3           | 2016-06-08 |
+| 2            | 3           | 2016-06-08 |
+| 3            | 4           | 2016-06-09 |
+写一个查询语句，求出谁拥有最多的好友和他拥有的好友数目。对于上面的样例数据，结果为：
+
+| id | num |
+|----|-----|
+| 3  | 3   |
+注意：
+
+保证拥有最多好友数目的只有 1 个人。
+好友申请只会被接受一次，所以不会有 requester_id 和 accepter_id 值都相同的重复记录。
+ 
+
+解释：
+
+编号为 '3' 的人是编号为 '1'，'2' 和 '4' 的好友，所以他总共有 3 个好友，比其他人都多。
+
+```
+
+
+
+```
+SELECT rid as id ,count(1) as num
+FROM
+(
+SELECT 
+     R.request_id as rid ,R.accepted_id as aid 
+FROM  
+	  request_accepted as R 
+Union ALL
+
+SELECT 
+     A.accepted_id as rid ,A.request_id as aid 
+ FROM
+		request_accepted as A 
+		)  as TX
+		
+		group by rid 
+		order by num DESC
+		
+		LIMIT 1
 ```
 
