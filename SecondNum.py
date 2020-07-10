@@ -91,7 +91,7 @@ C(m+n-2,m-1)
 """
 
 
-def sumpath(m,n):
+def sumpath(m, n):
     dp = [[0 for i in range(m)] for _ in range(n)]
     dp[0][0] = 0
     for i in range(m):
@@ -100,6 +100,22 @@ def sumpath(m,n):
         dp[0][j] = 1
 
     for i in range(1, m):
-        for j in range(1,n):
+        for j in range(1, n):
             dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
     return dp[-1][-1]
+
+
+"""
+二叉搜索树第K大的节点
+
+"""
+
+
+class ktree:
+    def kthlarge(self, root, k):
+        def dfs(root):
+            if not root:
+                return dfs(root.right)
+            if self.k == 0:
+                return self.k -= 1
+            if self.k == 0:

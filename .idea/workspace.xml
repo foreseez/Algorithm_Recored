@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -28,7 +29,11 @@
     <setting file="file://$PROJECT_DIR$/SubSetwithDupp.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/SecondNum.py" root0="SKIP_INSPECTION" />
   </component>
-  <component name="JupyterTrust" id="f4c68cc1-cae8-4ad3-8220-89ad8b62e29f" />
+  <component name="JupyterTrust" id="f4c68cc1-cae8-4ad3-8220-89ad8b62e29f">
+    <option name="files">
+      <option value="MySQL.ipynb" />
+    </option>
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="IuZlTALG" />
   </component>
@@ -164,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590912366691</updated>
-      <workItem from="1593354182686" duration="20704000" />
+      <workItem from="1593354182686" duration="30899000" />
     </task>
     <servers />
   </component>
