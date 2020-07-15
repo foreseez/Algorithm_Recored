@@ -1,3 +1,5 @@
+
+
 # LeetCode MySQL 刷题记录
 
 ## [游戏玩法分析 II](https://leetcode-cn.com/problems/game-play-analysis-ii/)
@@ -577,6 +579,238 @@ HAVING
 ORDER BY
     S.sales_id
 
+
+```
+
+```
+ 平均工资：部门与公司比较
+给如下两个表，写一个查询语句，求出在每一个工资发放日，每个部门的平均工资与公司的平均工资的比较结果 （高 / 低 / 相同）。
+
+ 
+
+表： salary
+
+| id | employee_id | amount | pay_date   |
+|----|-------------|--------|------------|
+| 1  | 1           | 9000   | 2017-03-31 |
+| 2  | 2           | 6000   | 2017-03-31 |
+| 3  | 3           | 10000  | 2017-03-31 |
+| 4  | 1           | 7000   | 2017-02-28 |
+| 5  | 2           | 6000   | 2017-02-28 |
+| 6  | 3           | 8000   | 2017-02-28 |
+ 
+
+employee_id 字段是表 employee 中 employee_id 字段的外键。
+
+ 
+
+| employee_id | department_id |
+|-------------|---------------|
+| 1           | 1             |
+| 2           | 2             |
+| 3           | 2             |
+ 
+
+对于如上样例数据，结果为：
+
+ 
+
+| pay_month | department_id | comparison  |
+|-----------|---------------|-------------|
+| 2017-03   | 1             | higher      |
+| 2017-03   | 2             | lower       |
+| 2017-02   | 1             | same        |
+| 2017-02   | 2             | same        |
+ 
+
+解释
+
+ 
+
+在三月，公司的平均工资是 (9000+6000+10000)/3 = 8333.33...
+
+ 
+
+由于部门 '1' 里只有一个 employee_id 为 '1' 的员工，所以部门 '1' 的平均工资就是此人的工资 9000 。因为 9000 > 8333.33 ，所以比较结果是 'higher'。
+
+ 
+
+第二个部门的平均工资为 employee_id 为 '2' 和 '3' 两个人的平均工资，为 (6000+10000)/2=8000 。因为 8000 < 8333.33 ，所以比较结果是 'lower' 。
+
+ 
+
+在二月用同样的公式求平均工资并比较，比较结果为 'same' ，因为部门 '1' 和部门 '2' 的平均工资与公司的平均工资相同，都是 7000 。
+
+
+```
+
+```
+计算公司每个月的平均工资
+MySQL 有一个内置函数 avg() 获得一列数字的平均值。同时我们需要将 pay_date 列按一定格式输出以便后面使用。
+sql
+
+select avg(amount) as company_avg,  date_format(pay_date, '%Y-%m') as pay_month
+from salary
+group by date_format(pay_date, '%Y-%m')
+;
+company_avg	pay_month
+7000.0000	2017-02
+8333.3333	2017-03
+计算每个部门每个月的平均工资
+为了实现这个目标，我们将 salary 表和 employee 表用条件 salary.employee_id = employee.id 连接起来。
+sql
+
+select department_id, avg(amount) as department_avg, date_format(pay_date, '%Y-%m') as pay_month
+from salary
+join employee on salary.employee_id = employee.employee_id
+group by department_id, pay_month
+;
+department_id	department_avg	pay_month
+1	7000.0000	2017-02
+1	9000.0000	2017-03
+2	7000.0000	2017-02
+2	8000.0000	2017-03
+将 2 中的表和之前的公司数据作比较并求出结果
+如果没用过 MySQL 的流控制语句 case...when... 那这一步会是最难的。
+就像其他语言一样，MySQL 也有流控制语句，点击 这里 了解更多。
+
+最后，将上面两个查询结合起来并用 on department_salary.pay_month = company_salary.pay_month 将它们连接。
+
+sql
+
+select department_salary.pay_month, department_id,
+case
+  when department_avg>company_avg then 'higher'
+  when department_avg<company_avg then 'lower'
+  else 'same'
+end as comparison
+from
+(
+  select department_id, avg(amount) as department_avg, date_format(pay_date, '%Y-%m') as pay_month
+  from salary join employee on salary.employee_id = employee.employee_id
+  group by department_id, pay_month
+) as department_salary
+join
+(
+  select avg(amount) as company_avg,  date_format(pay_date, '%Y-%m') as pay_month from salary group by date_format(pay_date, '%Y-%m')
+) as company_salary
+on department_salary.pay_month = company_salary.pay_month
+;
+```
+
+## [每位学生的最高成绩](https://leetcode-cn.com/problems/highest-grade-for-each-student/)
+
+```
+表：Enrollments
+
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| student_id    | int     |
+| course_id     | int     |
+| grade         | int     |
++---------------+---------+
+(student_id, course_id) 是该表的主键。
+
+ 
+
+编写一个 SQL 查询，查询每位学生获得的最高成绩和它所对应的科目，若科目成绩并列，取 course_id 最小的一门。查询结果需按 student_id 增序进行排序。
+
+查询结果格式如下所示：
+
+Enrollments 表：
++------------+-------------------+
+| student_id | course_id | grade |
++------------+-----------+-------+
+| 2          | 2         | 95    |
+| 2          | 3         | 95    |
+| 1          | 1         | 90    |
+| 1          | 2         | 99    |
+| 3          | 1         | 80    |
+| 3          | 2         | 75    |
+| 3          | 3         | 82    |
++------------+-----------+-------+
+
+Result 表：
++------------+-------------------+
+| student_id | course_id | grade |
++------------+-----------+-------+
+| 1          | 2         | 99    |
+| 2          | 2         | 95    |
+| 3          | 3         | 82    |
++------------+-----------+-------+
+
+```
+
+```
+select student_id ,min(course_id),grade
+from Enrollments
+where (student_id,grade) IN (
+select student_id,max(grade) as grade
+from Enrollments 
+group by student_id
+order by student_id
+)
+group by student_id
+order by student_id
+```
+
+## [部门工资前三高的所有员工](https://leetcode-cn.com/problems/department-top-three-salaries/)
+
+```
+Employee 表包含所有员工信息，每个员工有其对应的工号 Id，姓名 Name，工资 Salary 和部门编号 DepartmentId 。
+
++----+-------+--------+--------------+
+| Id | Name  | Salary | DepartmentId |
++----+-------+--------+--------------+
+| 1  | Joe   | 85000  | 1            |
+| 2  | Henry | 80000  | 2            |
+| 3  | Sam   | 60000  | 2            |
+| 4  | Max   | 90000  | 1            |
+| 5  | Janet | 69000  | 1            |
+| 6  | Randy | 85000  | 1            |
+| 7  | Will  | 70000  | 1            |
++----+-------+--------+--------------+
+Department 表包含公司所有部门的信息。
+
++----+----------+
+| Id | Name     |
++----+----------+
+| 1  | IT       |
+| 2  | Sales    |
++----+----------+
+编写一个 SQL 查询，找出每个部门获得前三高工资的所有员工。例如，根据上述给定的表，查询结果应返回：
+
++------------+----------+--------+
+| Department | Employee | Salary |
++------------+----------+--------+
+| IT         | Max      | 90000  |
+| IT         | Randy    | 85000  |
+| IT         | Joe      | 85000  |
+| IT         | Will     | 70000  |
+| Sales      | Henry    | 80000  |
+| Sales      | Sam      | 60000  |
++------------+----------+--------+
+解释：
+
+IT 部门中，Max 获得了最高的工资，Randy 和 Joe 都拿到了第二高的工资，Will 的工资排第三。销售部门（Sales）只有两名员工，Henry 的工资最高，Sam 的工资排第二。
+```
+
+```
+select 
+    e1.Name as Employee ,e1.Salary,Department.Name as Department
+from    
+    Employee as e1,Department
+    where e1.DepartmentId = Department.Id 
+
+    and  3> ( 
+        select  count(DISTINCT e2.Salary)
+        from Employee as e2
+        where e1.Salary < e2.Salary 
+        AND e1.DepartmentId = e2.DepartmentId
+    )
+
+    order   by Department.NAME,Salary desc;
 
 ```
 
