@@ -814,3 +814,52 @@ from
 
 ```
 
+## 求团队的人数
+
+```
+编写一个 SQL 查询，以求得每个员工所在团队的总人数。
+
+查询结果中的顺序无特定要求。
+
+查询结果格式示例如下：
+
+Employee Table:
++-------------+------------+
+| employee_id | team_id    |
++-------------+------------+
+|     1       |     8      |
+|     2       |     8      |
+|     3       |     8      |
+|     4       |     7      |
+|     5       |     9      |
+|     6       |     9      |
++-------------+------------+
+Result table:
++-------------+------------+
+| employee_id | team_size  |
++-------------+------------+
+|     1       |     3      |
+|     2       |     3      |
+|     3       |     3      |
+|     4       |     1      |
+|     5       |     2      |
+|     6       |     2      |
++-------------+------------+
+ID 为 1、2、3 的员工是 team_id 为 8 的团队的成员，
+ID 为 4 的员工是 team_id 为 7 的团队的成员，
+ID 为 5、6 的员工是 team_id 为 9 的团队的成员。
+
+```
+
+```
+select Employee.employee_id,size.team_size
+from 
+Employee 
+left join (
+    select team_id,count(*) as team_size
+    from Employee
+    group by team_id
+) as size 
+on Employee.team_id = size.team_id 
+```
+
