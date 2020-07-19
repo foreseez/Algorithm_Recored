@@ -14,6 +14,7 @@ with open(filename, 'w', encoding='utf-8') as f:
         allurl = baseurl + str(page)
         urls.append(allurl)
     print(urls)
+    import requests
 
     for url in urls:
         print(url)
