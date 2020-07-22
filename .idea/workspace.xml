@@ -23,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SubSetwithDupp.py" root0="SKIP_INSPECTION" />
@@ -60,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/main/com/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.scraph">
+  <component name="RunManager" selected="Python.multithread">
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Java_LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +84,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="multithread" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Java_LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multithread.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="permutation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Java_LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/permutation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scraph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Java_LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,50 +142,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraph.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Java_LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ss" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Java_LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ss.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multithread" />
+        <item itemvalue="Python.permutation" />
         <item itemvalue="Python.scraph" />
         <item itemvalue="Python.test0718" />
         <item itemvalue="Python.client" />
-        <item itemvalue="Python.server" />
-        <item itemvalue="Python.ss" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +197,10 @@
       <workItem from="1594886378131" duration="5416000" />
       <workItem from="1595059161149" duration="957000" />
       <workItem from="1595064991788" duration="5492000" />
+      <workItem from="1595158571258" duration="4597000" />
+      <workItem from="1595215402022" duration="274000" />
+      <workItem from="1595239440321" duration="703000" />
+      <workItem from="1595253511070" duration="269000" />
     </task>
     <servers />
   </component>
@@ -206,75 +211,80 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="407" y="104" key="CommitChangelistDialog2" timestamp="1593569405526">
-      <screen x="0" y="23" width="1680" height="959" />
+    <state x="407" y="104" key="CommitChangelistDialog2" timestamp="1595159432324">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
     <state x="407" y="104" key="CommitChangelistDialog2/0.23.1680.959@0.23.1680.959" timestamp="1593569405526" />
+    <state x="407" y="104" key="CommitChangelistDialog2/0.23.1680.961@0.23.1680.961" timestamp="1595159432324" />
     <state x="407" y="104" key="CommitChangelistDialog2/0.23.1680.963@0.23.1680.963" timestamp="1593359828403" />
-    <state width="1606" height="233" key="GridCell.Tab.0.bottom" timestamp="1595084765078">
-      <screen x="0" y="23" width="1680" height="959" />
+    <state width="1606" height="233" key="GridCell.Tab.0.bottom" timestamp="1595240146291">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="1606" height="233" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1595084765078" />
-    <state width="1492" height="233" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1595081304894" />
-    <state width="1606" height="256" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1593612562222" />
+    <state width="1606" height="233" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1595240146291" />
+    <state width="1606" height="316" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1595164934550" />
     <state width="1606" height="256" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593360463406" />
     <state width="1606" height="233" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1595084155445" />
-    <state width="1606" height="233" key="GridCell.Tab.0.center" timestamp="1595084765077">
-      <screen x="0" y="23" width="1680" height="959" />
+    <state width="1606" height="233" key="GridCell.Tab.0.center" timestamp="1595240146290">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="1606" height="233" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1595084765077" />
-    <state width="1492" height="233" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1595081304893" />
-    <state width="1606" height="256" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1593612562221" />
+    <state width="1606" height="233" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1595240146290" />
+    <state width="1606" height="316" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1595164934550" />
     <state width="1606" height="256" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593360463405" />
     <state width="1606" height="233" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1595084155444" />
-    <state width="1606" height="233" key="GridCell.Tab.0.left" timestamp="1595084765076">
-      <screen x="0" y="23" width="1680" height="959" />
+    <state width="1606" height="233" key="GridCell.Tab.0.left" timestamp="1595240146289">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="1606" height="233" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1595084765076" />
-    <state width="1492" height="233" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1595081304892" />
-    <state width="1606" height="256" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1593612562221" />
+    <state width="1606" height="233" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1595240146289" />
+    <state width="1606" height="316" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1595164934549" />
     <state width="1606" height="256" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593360463404" />
     <state width="1606" height="233" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1595084155444" />
-    <state width="1606" height="233" key="GridCell.Tab.0.right" timestamp="1595084765078">
-      <screen x="0" y="23" width="1680" height="959" />
+    <state width="1606" height="233" key="GridCell.Tab.0.right" timestamp="1595240146290">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state width="1606" height="233" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1595084765078" />
-    <state width="1492" height="233" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1595081304893" />
-    <state width="1606" height="256" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1593612562222" />
+    <state width="1606" height="233" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1595240146290" />
+    <state width="1606" height="316" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1595164934550" />
     <state width="1606" height="256" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593360463405" />
     <state width="1606" height="233" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1595084155444" />
-    <state width="1606" height="316" key="GridCell.Tab.1.bottom" timestamp="1593359833098">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1606" height="316" key="GridCell.Tab.1.bottom" timestamp="1595164934551">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1638" height="316" key="GridCell.Tab.1.bottom/0.23.1680.961@0.23.1680.961" timestamp="1593357405816" />
+    <state width="1606" height="316" key="GridCell.Tab.1.bottom/0.23.1680.961@0.23.1680.961" timestamp="1595164934551" />
     <state width="1606" height="316" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593359833098" />
-    <state width="1606" height="316" key="GridCell.Tab.1.center" timestamp="1593359833098">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1606" height="316" key="GridCell.Tab.1.center" timestamp="1595164934551">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1638" height="316" key="GridCell.Tab.1.center/0.23.1680.961@0.23.1680.961" timestamp="1593357405815" />
+    <state width="1606" height="316" key="GridCell.Tab.1.center/0.23.1680.961@0.23.1680.961" timestamp="1595164934551" />
     <state width="1606" height="316" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593359833098" />
-    <state width="1606" height="316" key="GridCell.Tab.1.left" timestamp="1593359833098">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1606" height="316" key="GridCell.Tab.1.left" timestamp="1595164934551">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1638" height="316" key="GridCell.Tab.1.left/0.23.1680.961@0.23.1680.961" timestamp="1593357405815" />
+    <state width="1606" height="316" key="GridCell.Tab.1.left/0.23.1680.961@0.23.1680.961" timestamp="1595164934551" />
     <state width="1606" height="316" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593359833098" />
-    <state width="1606" height="316" key="GridCell.Tab.1.right" timestamp="1593359833098">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1606" height="316" key="GridCell.Tab.1.right" timestamp="1595164934551">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1638" height="316" key="GridCell.Tab.1.right/0.23.1680.961@0.23.1680.961" timestamp="1593357405815" />
+    <state width="1606" height="316" key="GridCell.Tab.1.right/0.23.1680.961@0.23.1680.961" timestamp="1595164934551" />
     <state width="1606" height="316" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593359833098" />
     <state x="435" y="227" key="SettingsEditor" timestamp="1593357002287">
       <screen x="0" y="23" width="1680" height="961" />
     </state>
     <state x="435" y="227" key="SettingsEditor/0.23.1680.961@0.23.1680.961" timestamp="1593357002287" />
-    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1595064991972">
-      <screen x="0" y="23" width="1680" height="959" />
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1595253511187">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
     <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.959@0.23.1680.959" timestamp="1595064991972" />
-    <state x="607" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593512185635">
-      <screen x="0" y="23" width="1680" height="959" />
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.960@0.23.1680.960" timestamp="1595239440725" />
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.961@0.23.1680.961" timestamp="1595253511187" />
+    <state x="517" y="337" key="com.intellij.ide.util.TipDialog/0.23.1680.966@0.23.1680.966" timestamp="1595215406812" />
+    <state x="607" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595159403605">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
     <state x="607" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.959@0.23.1680.959" timestamp="1593512185635" />
+    <state x="607" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.961@0.23.1680.961" timestamp="1595159403605" />
     <state x="405" y="90" width="837" height="825" key="find.popup" timestamp="1593512332538">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
@@ -303,16 +313,33 @@
           <line>5</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/permutation.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/permutation.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/permutation.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode_python$SubSetwithDupp.coverage" NAME="SubSetwithDupp Coverage Results" MODIFIED="1593360463397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_python$SecondNum.coverage" NAME="SecondNum Coverage Results" MODIFIED="1593594996984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode_python$multithread.coverage" NAME="multithread Coverage Results" MODIFIED="1595239961311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_python$client.coverage" NAME="client Coverage Results" MODIFIED="1594914761222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_python$tencentNumber.coverage" NAME="tencentNumber Coverage Results" MODIFIED="1594897917936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_python$test0718.coverage" NAME="test0718 Coverage Results" MODIFIED="1595060086786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_python$lstm0603_5fold_maxpool.coverage" NAME="lstm0603-5fold-maxpool Coverage Results" MODIFIED="1593612562207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/腾讯算法大赛" />
+    <SUITE FILE_PATH="coverage/LeetCode_python$permutation.coverage" NAME="permutation Coverage Results" MODIFIED="1595161821624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_python$ss.coverage" NAME="ss Coverage Results" MODIFIED="1594899411541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_python$server.coverage" NAME="server Coverage Results" MODIFIED="1594914751954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_python$scraph.coverage" NAME="scraph Coverage Results" MODIFIED="1595084648488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
