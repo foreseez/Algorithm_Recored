@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="926ca0c4-6ed5-42d0-8f4f-d5d2ad69a058" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/permutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/main/com/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.multithread">
+  <component name="RunManager" selected="Python.scraph">
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Java_LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,9 +176,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.multithread" />
-        <item itemvalue="Python.permutation" />
         <item itemvalue="Python.scraph" />
+        <item itemvalue="Python.permutation" />
+        <item itemvalue="Python.multithread" />
         <item itemvalue="Python.test0718" />
         <item itemvalue="Python.client" />
       </list>
@@ -201,6 +203,9 @@
       <workItem from="1595215402022" duration="274000" />
       <workItem from="1595239440321" duration="703000" />
       <workItem from="1595253511070" duration="269000" />
+      <workItem from="1595839717208" duration="6000" />
+      <workItem from="1596269461280" duration="2369000" />
+      <workItem from="1596281035762" duration="1933000" />
     </task>
     <servers />
   </component>
@@ -217,34 +222,34 @@
     <state x="407" y="104" key="CommitChangelistDialog2/0.23.1680.959@0.23.1680.959" timestamp="1593569405526" />
     <state x="407" y="104" key="CommitChangelistDialog2/0.23.1680.961@0.23.1680.961" timestamp="1595159432324" />
     <state x="407" y="104" key="CommitChangelistDialog2/0.23.1680.963@0.23.1680.963" timestamp="1593359828403" />
-    <state width="1606" height="233" key="GridCell.Tab.0.bottom" timestamp="1595240146291">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state width="1574" height="233" key="GridCell.Tab.0.bottom" timestamp="1596291342191">
+      <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state width="1606" height="233" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1595084765078" />
+    <state width="1574" height="233" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1596291342191" />
     <state width="1606" height="233" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1595240146291" />
     <state width="1606" height="316" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1595164934550" />
     <state width="1606" height="256" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593360463406" />
     <state width="1606" height="233" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1595084155445" />
-    <state width="1606" height="233" key="GridCell.Tab.0.center" timestamp="1595240146290">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state width="1574" height="233" key="GridCell.Tab.0.center" timestamp="1596291342190">
+      <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state width="1606" height="233" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1595084765077" />
+    <state width="1574" height="233" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1596291342190" />
     <state width="1606" height="233" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1595240146290" />
     <state width="1606" height="316" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1595164934550" />
     <state width="1606" height="256" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593360463405" />
     <state width="1606" height="233" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1595084155444" />
-    <state width="1606" height="233" key="GridCell.Tab.0.left" timestamp="1595240146289">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state width="1574" height="233" key="GridCell.Tab.0.left" timestamp="1596291342190">
+      <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state width="1606" height="233" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1595084765076" />
+    <state width="1574" height="233" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1596291342190" />
     <state width="1606" height="233" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1595240146289" />
     <state width="1606" height="316" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1595164934549" />
     <state width="1606" height="256" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593360463404" />
     <state width="1606" height="233" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1595084155444" />
-    <state width="1606" height="233" key="GridCell.Tab.0.right" timestamp="1595240146290">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state width="1574" height="233" key="GridCell.Tab.0.right" timestamp="1596291342190">
+      <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state width="1606" height="233" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1595084765078" />
+    <state width="1574" height="233" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1596291342190" />
     <state width="1606" height="233" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1595240146290" />
     <state width="1606" height="316" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1595164934550" />
     <state width="1606" height="256" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593360463405" />
@@ -273,10 +278,10 @@
       <screen x="0" y="23" width="1680" height="961" />
     </state>
     <state x="435" y="227" key="SettingsEditor/0.23.1680.961@0.23.1680.961" timestamp="1593357002287" />
-    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1595253511187">
-      <screen x="0" y="23" width="1680" height="961" />
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1596281036476">
+      <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.959@0.23.1680.959" timestamp="1595064991972" />
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.959@0.23.1680.959" timestamp="1596281036476" />
     <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.960@0.23.1680.960" timestamp="1595239440725" />
     <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.961@0.23.1680.961" timestamp="1595253511187" />
     <state x="517" y="337" key="com.intellij.ide.util.TipDialog/0.23.1680.966@0.23.1680.966" timestamp="1595215406812" />
@@ -315,17 +320,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/permutation.py</url>
-          <line>9</line>
+          <line>15</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/permutation.py</url>
-          <line>10</line>
+          <line>16</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/permutation.py</url>
-          <line>11</line>
+          <line>17</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
@@ -339,9 +344,9 @@
     <SUITE FILE_PATH="coverage/LeetCode_python$tencentNumber.coverage" NAME="tencentNumber Coverage Results" MODIFIED="1594897917936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_python$test0718.coverage" NAME="test0718 Coverage Results" MODIFIED="1595060086786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_python$lstm0603_5fold_maxpool.coverage" NAME="lstm0603-5fold-maxpool Coverage Results" MODIFIED="1593612562207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/腾讯算法大赛" />
-    <SUITE FILE_PATH="coverage/LeetCode_python$permutation.coverage" NAME="permutation Coverage Results" MODIFIED="1595161821624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode_python$permutation.coverage" NAME="permutation Coverage Results" MODIFIED="1596276921027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_python$ss.coverage" NAME="ss Coverage Results" MODIFIED="1594899411541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_python$server.coverage" NAME="server Coverage Results" MODIFIED="1594914751954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LeetCode_python$scraph.coverage" NAME="scraph Coverage Results" MODIFIED="1595084648488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode_python$scraph.coverage" NAME="scraph Coverage Results" MODIFIED="1596291102791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
