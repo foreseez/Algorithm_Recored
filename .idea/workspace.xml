@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="926ca0c4-6ed5-42d0-8f4f-d5d2ad69a058" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/permutation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +204,7 @@
       <workItem from="1595839717208" duration="6000" />
       <workItem from="1596269461280" duration="2369000" />
       <workItem from="1596281035762" duration="1933000" />
+      <workItem from="1596291672677" duration="235000" />
     </task>
     <servers />
   </component>
@@ -278,10 +277,10 @@
       <screen x="0" y="23" width="1680" height="961" />
     </state>
     <state x="435" y="227" key="SettingsEditor/0.23.1680.961@0.23.1680.961" timestamp="1593357002287" />
-    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1596281036476">
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1596291673600">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.959@0.23.1680.959" timestamp="1596281036476" />
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.959@0.23.1680.959" timestamp="1596291673600" />
     <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.960@0.23.1680.960" timestamp="1595239440725" />
     <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.961@0.23.1680.961" timestamp="1595253511187" />
     <state x="517" y="337" key="com.intellij.ide.util.TipDialog/0.23.1680.966@0.23.1680.966" timestamp="1595215406812" />
