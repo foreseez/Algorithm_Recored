@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926ca0c4-6ed5-42d0-8f4f-d5d2ad69a058" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/minpath.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +199,8 @@
       <workItem from="1596879578563" duration="654000" />
       <workItem from="1596895030317" duration="550000" />
       <workItem from="1596981943320" duration="99000" />
-      <workItem from="1597570181884" duration="5288000" />
+      <workItem from="1597570181884" duration="5974000" />
+      <workItem from="1597656168915" duration="485000" />
     </task>
     <servers />
   </component>
@@ -290,10 +287,10 @@
     </state>
     <state x="435" y="227" key="SettingsEditor/0.23.1680.959@0.23.1680.959" timestamp="1597570206597" />
     <state x="435" y="227" key="SettingsEditor/0.23.1680.961@0.23.1680.961" timestamp="1593357002287" />
-    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1597570182614">
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1597656169472">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.959@0.23.1680.959" timestamp="1597570182614" />
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.959@0.23.1680.959" timestamp="1597656169472" />
     <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.960@0.23.1680.960" timestamp="1595239440725" />
     <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.23.1680.961@0.23.1680.961" timestamp="1595253511187" />
     <state x="517" y="337" key="com.intellij.ide.util.TipDialog/0.23.1680.965@0.23.1680.965" timestamp="1596879579904" />
