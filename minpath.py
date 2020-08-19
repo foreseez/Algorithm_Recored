@@ -71,6 +71,7 @@ def inorder1(root): #中序非递归
 
 import  queue
 
+"""层次遍历"""
 def level(root):
     if root is None:
         return None
