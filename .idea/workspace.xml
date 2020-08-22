@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926ca0c4-6ed5-42d0-8f4f-d5d2ad69a058" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/minpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/minpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +61,8 @@
       <recent name="$PROJECT_DIR$/src/main/com/leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.client">
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.interview">
+    <configuration name="interview" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Java_LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +75,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,6 +172,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.interview" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -201,7 +206,7 @@
       <workItem from="1596981943320" duration="99000" />
       <workItem from="1597570181884" duration="5974000" />
       <workItem from="1597656168915" duration="485000" />
-      <workItem from="1597802559085" duration="22000" />
+      <workItem from="1597802559085" duration="1771000" />
     </task>
     <servers />
   </component>
@@ -231,34 +236,34 @@
     <state x="407" y="104" key="CommitChangelistDialog2/0.23.1680.959@0.23.1680.959" timestamp="1593569405526" />
     <state x="407" y="104" key="CommitChangelistDialog2/0.23.1680.961@0.23.1680.961" timestamp="1595159432324" />
     <state x="407" y="104" key="CommitChangelistDialog2/0.23.1680.963@0.23.1680.963" timestamp="1593359828403" />
-    <state width="1574" height="233" key="GridCell.Tab.0.bottom" timestamp="1596291342191">
+    <state width="1559" height="229" key="GridCell.Tab.0.bottom" timestamp="1597840631727">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state width="1574" height="233" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1596291342191" />
+    <state width="1559" height="229" key="GridCell.Tab.0.bottom/0.23.1680.959@0.23.1680.959" timestamp="1597840631727" />
     <state width="1606" height="233" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1595240146291" />
     <state width="1606" height="316" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1595164934550" />
     <state width="1606" height="256" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593360463406" />
     <state width="1606" height="233" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1595084155445" />
-    <state width="1574" height="233" key="GridCell.Tab.0.center" timestamp="1596291342190">
+    <state width="1559" height="229" key="GridCell.Tab.0.center" timestamp="1597840631726">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state width="1574" height="233" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1596291342190" />
+    <state width="1559" height="229" key="GridCell.Tab.0.center/0.23.1680.959@0.23.1680.959" timestamp="1597840631726" />
     <state width="1606" height="233" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1595240146290" />
     <state width="1606" height="316" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1595164934550" />
     <state width="1606" height="256" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593360463405" />
     <state width="1606" height="233" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1595084155444" />
-    <state width="1574" height="233" key="GridCell.Tab.0.left" timestamp="1596291342190">
+    <state width="1559" height="229" key="GridCell.Tab.0.left" timestamp="1597840631726">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state width="1574" height="233" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1596291342190" />
+    <state width="1559" height="229" key="GridCell.Tab.0.left/0.23.1680.959@0.23.1680.959" timestamp="1597840631726" />
     <state width="1606" height="233" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1595240146289" />
     <state width="1606" height="316" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1595164934549" />
     <state width="1606" height="256" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593360463404" />
     <state width="1606" height="233" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1595084155444" />
-    <state width="1574" height="233" key="GridCell.Tab.0.right" timestamp="1596291342190">
+    <state width="1559" height="229" key="GridCell.Tab.0.right" timestamp="1597840631727">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state width="1574" height="233" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1596291342190" />
+    <state width="1559" height="229" key="GridCell.Tab.0.right/0.23.1680.959@0.23.1680.959" timestamp="1597840631727" />
     <state width="1606" height="233" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1595240146290" />
     <state width="1606" height="316" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1595164934550" />
     <state width="1606" height="256" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593360463405" />
@@ -305,5 +310,8 @@
       <screen x="0" y="23" width="1680" height="959" />
     </state>
     <state x="405" y="90" width="837" height="825" key="find.popup/0.23.1680.959@0.23.1680.959" timestamp="1593512332538" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCode_python$interview.coverage" NAME="interview Coverage Results" MODIFIED="1597840610379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
