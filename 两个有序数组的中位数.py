@@ -37,3 +37,21 @@ class Solution:
                 right = i - 1
 
         return (median1 + median2) / 2 if (m + n) % 2 == 0 else median1
+
+
+"""
+最长回文串
+给定一些字母输出 能够组成的最长回文串
+
+"""
+
+
+class Solution:
+    def longestPalindrome(self, s):
+        ans = 0
+        count = collections.Counter(s)  # 统计每个字母出现的次数  一个字母最多可以使用 2 * （次数 // 2）
+        for v in count.values():
+            ans += v // 2 * 2
+            if ans % 2 == 0 and v % 2 == 1:  # 如果是奇数的话放在偶数次字母的最中间
+                ans += 1
+        return ans
