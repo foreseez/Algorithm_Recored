@@ -55,3 +55,23 @@ class Solution:
             if ans % 2 == 0 and v % 2 == 1:  # 如果是奇数的话放在偶数次字母的最中间
                 ans += 1
         return ans
+
+"""
+Java 合并有序数组
+"""
+class Solution {
+    public void merge(int[] A, int m, int[] B, int n) {
+        int k = m+n-1;
+        int i = m-1;
+        int j = n-1;
+        while(i>=0&&j>=0){
+            if(A[i] < B[j]){
+                A[k--] = B[j--];
+            }else{
+                A[k--] = A[i--];
+            }
+        }
+        while(j>=0)
+        A[k--] = B[j--];
+    }
+}
