@@ -25,3 +25,8 @@ y.backward(t.ones(y.size()))
 print("--")
 print(x.grad)
 print(gradf(x))
+
+def func(a,b):
+    return (a**2,b+2)
+res = func(3,6)
+print(type(res))
