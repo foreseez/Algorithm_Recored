@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="926ca0c4-6ed5-42d0-8f4f-d5d2ad69a058" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Torch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Torch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/剑指offer 刷题.ipynb的替身" beforeDir="false" afterPath="$PROJECT_DIR$/剑指offer 刷题.ipynb的替身" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +226,7 @@
       <workItem from="1602167810000" duration="356000" />
       <workItem from="1602728812876" duration="3432000" />
       <workItem from="1603102708314" duration="312000" />
+      <workItem from="1604049337959" duration="1012000" />
     </task>
     <servers />
   </component>
